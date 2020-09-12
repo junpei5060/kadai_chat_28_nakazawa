@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="box">
 <home></home>
     <div class="memo-list container-fluent">
         <div class="row justify-content-center d-flex justify-content-around" >
@@ -57,6 +57,11 @@ memos () {
 </script>
 
 <style scoped>
+
+/* .box{
+    background-color: rgb(226, 224, 224);
+} */
+
 .memo-list {
 text-align: center;
 }
