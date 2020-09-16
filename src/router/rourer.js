@@ -1,10 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import VueCarousel from 'vue-carousel';
-import MemoList from '../pages/MemoList.vue'
-import Form from '../components/views/MemoListForm.vue';
-import Thanks from '../components/views/Thanks.vue';
 import Login from '../components/views/Login.vue'
+import Home from '../components/views/Home.vue'
 import Success from '../components/views/Success.vue'
 import firebase from 'firebase/app'
 
@@ -18,17 +16,8 @@ const router =  new Router({
     mode:'history',
     routes:[{
         path: '/',
-        name: 'MemoList',
-        component: MemoList,
-        meta: {
-            title: 'memo list'
-        }
-    },
-    {
-        path:'/form',component:Form
-    },
-    {
-        path:'/thanks', component:Thanks
+        component: Home
+        
     },
     {
         path: '/login',

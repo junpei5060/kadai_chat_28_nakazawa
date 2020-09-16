@@ -2,7 +2,7 @@
   <div>
     <body>
       <header>
-            <h1>
+            <!-- <h1>
                 <a href="/">Brain Storage</a><br>
             </h1>
             <nav class="pc-nav">
@@ -12,7 +12,7 @@
                     <li><span @click="logout">ログアウト</span></li>
                     
                 </ul>
-            </nav>
+            </nav> -->
         </header>
       <transition mode=”out-in”>
       <router-view></router-view>
